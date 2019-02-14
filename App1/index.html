@@ -2,11 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>App1</title>
+    <title>t1</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script type= "text/javascript">
+        function addNumbers(j) {
+            var sum = 0;
+            for (i = 0; i < j; i++) {
+                sum = sum+ i;
+            }
+            return sum;
+        }
+    </script>
+    
 </head>
 <body>
     <div>Content goes here!</div>
+    <a href="page.html">while loop page</a>
+    <script>
+        var inputnumber = prompt("State starting numer");
+        document.write(addNumbers(inputnumber));
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>
