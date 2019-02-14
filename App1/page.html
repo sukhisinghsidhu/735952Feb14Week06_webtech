@@ -3,21 +3,19 @@
 <head>
     <title>t1</title>
     <script type="text/javascript">
-        function addNumbers(j) {
-            var i = 1;
-            var sum = 0;
-            while (i < j) {
-                sum = sum + j;
-                i++;}
+        function addNumber(countUpTo) {
+            var sum = 0, i = 0;
+            while (++i <= countUpTo) {
+                sum += i;
+            }
             return sum;
         }
-        </script>
+    </script>
 </head>
 <body>
-    <script>
-        var inputnumber = prompt("State starting number");
-        document.write(addNumbers(inputnumber));
+    <script type="text/javascript">
+        var inputNumber = prompt("Input Your Number!");
+        document.write(addNumber(inputNumber));
     </script>
-    <div>Content goes here.</div>
 </body>
 </html>
