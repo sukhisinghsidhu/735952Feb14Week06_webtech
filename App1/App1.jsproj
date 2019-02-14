@@ -78,7 +78,7 @@
     <Content Include="images\Wide310x150Logo.scale-200.png" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
-    <Content Include="multiplicaitontable.html" />
+    <Content Include="multi.html" />
     <Content Include="page.html" />
     <None Include="App1_TemporaryKey.pfx" />
   </ItemGroup>
